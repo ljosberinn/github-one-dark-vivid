@@ -3,7 +3,7 @@
 changes Githubs code appearance to resemble One Dark Vivid of VS Code as closely as possible, built upon vovanmix/github-dark-theme
 
 Inline-style:
-![img](https://github.com/ljosberinn/github-one-dark-vivid/raw/master/src/img.png 'image')
+![img](https://raw.githubusercontent.com/ljosberinn/github-one-dark-vivid/master/img.png 'image')
 
 requires https://github.com/tonsky/FiraCode installed locally
 
