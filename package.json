@@ -1,0 +1,21 @@
+{
+	"name": "github-one-dark-vivid",
+	"version": "1.0",
+	"repository": "git@github.com:ljosberinn/github-one-dark-vivid.git",
+	"author": "Gerrit Alex <admin@gerritalex.de",
+	"license": "MIT",
+	"dependencies": {
+		"css-loader": "^0.28.1",
+		"extract-text-webpack-plugin": "^2.1.0",
+		"less": "^2.7.2",
+		"less-loader": "^4.0.3",
+		"style-loader": "^0.17.0",
+		"webpack": "^2.4.1"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"assemble": "webpack",
+		"build":
+			"webpack && rm ./github.zip || echo 'nothing to remove' && cd dist && zip -r ../github.zip ./ && cd ../ && cp ./dist/app/app.css ./safari-dark-github.safariextension/app.css && echo 'build done!'"
+	}
+}
