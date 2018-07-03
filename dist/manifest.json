@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "Github VS Code One Dark Vivid with Fira Code",
 	"description": "changes Githubs code appearance to resemble One Dark Vivid of VS Code as closely as possible, built upon vovanmix/github-dark-theme",
-	"version": "1.0",
+	"version": "1.1",
 	"content_scripts": [
 		{
 			"matches": ["https://github.com/*", "https://gist.github.com/*"],
