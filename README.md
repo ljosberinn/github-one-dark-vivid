@@ -8,6 +8,13 @@ changes Githubs code appearance to resemble One Dark Vivid of VS Code as closely
 
 requires https://github.com/tonsky/FiraCode installed locally
 
+
+If you wish more colors to be added, please open a PR.
+
+Fonts need to be added to [/src/code.less line 3](https://github.com/ljosberinn/github-one-dark-vivid/blob/master/src/code.less), with a fallback for macOS/Windows (different naming for the same font)
+
+# Git started
+
 ```sh
 git clone https://github.com/github-one-dark-vivid
 
@@ -15,5 +22,7 @@ yarn install
 
 yarn run build
 ```
+
+# Credits
 
 built upon [Github Dark Theme @ Vovanmix](https://github.com/vovanmix/github-dark-theme)
