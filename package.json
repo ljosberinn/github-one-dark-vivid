@@ -1,16 +1,16 @@
 {
 	"name": "github-one-dark-vivid",
-	"version": "1.2",
+	"version": "1.3",
 	"repository": "git@github.com:ljosberinn/github-one-dark-vivid.git",
 	"author": "Gerrit Alex <admin@gerritalex.de",
 	"license": "MIT",
 	"dependencies": {
-		"css-loader": "^0.28.1",
-		"extract-text-webpack-plugin": "^2.1.0",
-		"less": "^2.7.2",
-		"less-loader": "^4.0.3",
-		"style-loader": "^0.17.0",
-		"webpack": "^2.4.1"
+		"css-loader": "^3.4.2",
+		"extract-text-webpack-plugin": "^3.0.2",
+		"less": "^3.11.1",
+		"less-loader": "^5.0.0",
+		"style-loader": "^1.1.3",
+		"webpack": "^3.12.0"
 	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
